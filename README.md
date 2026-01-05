@@ -17,3 +17,5 @@ Currently learning JavaScript, Git, and GitHub while building real projects.
 ### 📫 Contact
 - GitHub:
 https://github.com/OLaditiblessing28/First-GitHub
+
+https://github.com/oladitiblessing28/first-github
