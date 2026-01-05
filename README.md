@@ -15,4 +15,5 @@ Currently learning JavaScript, Git, and GitHub while building real projects.
 - Preparing for professional software engineering programs
 
 ### 📫 Contact
-- GitHub: https://github.comOladitiblessing28
+- GitHub:
+https://github.com/OLaditiblessing28/First-GitHub
