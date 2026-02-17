@@ -1,0 +1,107 @@
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+       height: 70vh;
+      width: 80vw;
+      background: #97437c;
+      font-weight: bold;
+      /* align-content: center; */
+
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      
+
+    }
+
+    .form_area{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #fff;
+      height: auto;
+      width: auto;
+      border-radius: 20px;
+  margin: 10px 0px 40px 0px;
+  box-shadow: 30px 35px 2px 5px  #52206b;
+    }
+    .title{
+      color: #974393;
+      font-weight: 900;
+      font-size: 1.5em;
+      margin-top: 20px;
+
+    }
+
+    .sub_title{
+      font-weight: 600;
+      margin: 5px 0;
+    }
+    .form_group{
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+      align-items: baseline;
+      /* box-shadow: 25px 25px 35px 0px  #000; */
+
+    }
+
+    .form_style{
+      outline: none;
+      border: 2px solid #000;
+      width: 190px;
+      font-size: 12px;
+      border-radius: 4px;
+      padding: 12px 10px ;
+      box-shadow: 3px 4px 0px 1px #000;
+    
+
+
+    }
+
+    .form_style:focus, .btn :focus{
+      transform: translateY(4px);
+      box-shadow: 1px 2px 0px 0px #000;
+    }
+    .btn{
+      padding: 15px;
+      margin: 10px;
+      width: 160px;
+      font-size: 10px 5px;
+      background: #974393;
+      border-radius: 30px;
+      font-weight: 9000;
+      cursor: pointer;
+      box-shadow: 5px 5px 0px 0px #000;
+    }
+.link{
+  padding-right: 12px;
+  text-align: center;
+  margin: 1px 0px 40px 0px;
+  text-decoration: none;
+  color: #000;
+  font-size: small;
+  font-weight: 400;
+  color: #974393;
+}
+.link :hover{
+  color: #974393;
+}
+.p{
+  margin: 10px 0px;
+font-size: small;
+font-weight: 500;
+text-align: center;
+}
+
+  
