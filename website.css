@@ -1,0 +1,280 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
+
+.main {
+background-image: url("Web image.PNG");
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 100vh;
+color: white;
+position: relative;
+padding: 20px;
+}
+
+/* NAVBAR */
+.navbar {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo {
+color: orangered;
+font-size: 24px;
+font-weight: bold;
+}
+
+.menu ul {
+display: flex;
+gap: 20px;
+}
+
+.menu ul li {
+list-style: none;
+}
+
+.menu ul li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+color: orangered;
+}
+
+/* SEARCH BOX */
+.search {
+display: flex;
+align-items: center;
+gap: 5px;
+}
+
+.srch {
+width: 150px;
+height: 30px;
+padding: 5px;
+border: 1px solid orangered;
+background: transparent;
+color: white;
+}
+
+.btn {
+background-color: orangered;
+border: none;
+padding: 6px 12px;
+color: black;
+cursor: pointer;
+font-weight: bold;
+}
+
+/* CONTENT */
+.content {
+margin-top: 40px;
+}
+
+.content h3 {
+font-size: 28px;
+line-height: 35px;
+}
+
+span.b {
+color: orangered;
+}
+
+.content p {
+margin-top: 10px;
+font-size: 14px;
+line-height: 22px;
+}
+
+.content .cn {
+background-color: orangered;
+padding: 8px 25px;
+border: none;
+margin-top: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.content .cn a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+
+.content .cn:hover {
+background: white;
+}
+
+/* LOGIN FORM */
+.form {
+width: 220px;
+background-color: black;
+padding: 15px;
+border-radius: 10px;
+position: absolute;
+top: 50%;
+right: 40px;
+transform: translateY(-50%);
+}
+
+.form h2 {
+text-align: center;
+background: white;
+color: orangered;
+padding: 8px;
+border-radius: 6px;
+margin-bottom: 10px;
+}
+
+.form input {
+width: 100%;
+height: 30px;
+margin-top: 12px;
+background: transparent;
+border: none;
+border-bottom: 1px solid orangered;
+color: white;
+padding: 5px;
+}
+
+.form input::placeholder {
+color: white;
+}
+
+.btnn {
+width: 100%;
+height: 30px;
+background-color: orangered;
+border: none;
+margin-top: 15px;
+border-radius: 6px;
+cursor: pointer;
+}
+
+.btnn:hover {
+background: white;
+}
+
+.btnn a {
+color: black;
+text-decoration: none;
+font-weight: bold;
+}
+
+.link {
+text-align: center;
+margin-top: 10px;
+font-size: 13px;
+}
+
+.link a {
+color: orangered;
+text-decoration: none;
+}
+
+.icons {
+text-align: center;
+margin-top: 8px;
+}
+
+.icons ion-icon {
+font-size: 20px;
+margin: 4px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.icons ion-icon:hover {
+color: orangered;
+}
+
+/* ——————————————— */
+/* RESPONSIVE BREAKPOINTS */
+/* ——————————————— */
+
+/* Tablets (max width: 992px) */
+@media (max-width: 992px) {
+.navbar {
+flex-wrap: wrap;
+}
+
+.menu ul {
+gap: 10px;
+}
+
+.form {
+right: 20px;
+top: 60%;
+}
+
+.content h3 {
+font-size: 24px;
+}
+}
+
+/* Tablets / Large Phones (max width: 768px) */
+@media (max-width: 768px) {
+.navbar {
+flex-direction: column;
+gap: 10px;
+}
+
+.menu ul {
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.search {
+width: 100%;
+justify-content: center;
+}
+
+.content {
+margin-top: 60px;
+}
+
+.form {
+position: static;
+margin-top: 30px;
+transform: none;
+}
+}
+
+/* Phones (max width: 576px) */
+@media (max-width: 576px) {
+.logo {
+font-size: 20px;
+}
+
+.menu ul li a {
+font-size: 12px;
+}
+
+.content h3 {
+font-size: 20px;
+}
+
+.srch {
+width: 120px;
+}
+
+.btn {
+padding: 5px 10px;
+}
+
+.form {
+width: 100%;
+}
+}
+
