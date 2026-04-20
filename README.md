@@ -4,7 +4,7 @@ I'm an aspiring full-stack developer with a strong foundation in HTML and CSS.
 Currently learning JavaScript, Git, and GitHub while building real projects.
 
 ### 🔧 Technologies
-- HTML
+- HTML 
 - CSS
 - JavaScript
 - Git & GitHub
